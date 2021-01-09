@@ -1,0 +1,93 @@
+nav {
+    height: 50px;
+    background-color: lightgrey;
+}
+
+
+.inline-block {
+    padding: 15px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+
+}
+
+.block_element {
+    display: inline-block;
+    background-color: grey;
+
+}
+
+.left {
+    width: 25%;
+    height: 700px;
+    background-color: blue;
+    float: left;
+
+
+
+}
+
+.left2 {
+    background-color: teal;
+    height: 500px;
+}
+
+.pet {
+
+    float: center;
+    padding: 38px;
+
+}
+
+.right {
+    width: 75%;
+    background-color: green;
+    height: 700px;
+    float: left;
+}
+
+.name {
+    color: white;
+    text-align: left;
+    padding-left: 70px;
+}
+
+.pet2 {
+    padding: 10px;
+    padding-right: 10px;
+    float: left;
+}
+
+.separator {
+
+    max-width: fit-content;
+}
+
+.imagessec {
+    padding-top: 10px;
+    padding-left: 50px;
+    background-color: blanchedalmond;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: auto;
+}
+
+.last {
+    color: black;
+    text-align: center;
+}
+
+.text12 {
+    padding-left: 10px;
+}
